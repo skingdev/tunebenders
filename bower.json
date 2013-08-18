@@ -1,8 +1,10 @@
 {
-  "name": "ember-app-kit",
+  "name": "band-app-kit",
   "dependencies": {
-    "ember": "~1.0.0-rc.6.1",
+    "ember": "~1.0.0",
     "handlebars": "~1.0.0",
-    "jquery": "~1.9.1"
+    "jquery": "~2.0.0",
+    "normalize-css": "~2.1.1",
+    "bourbon": "latest"
   }
 }

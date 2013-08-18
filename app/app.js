@@ -1,13 +1,13 @@
 import Resolver from 'resolver';
 
 var App = Ember.Application.create({
-  LOG_ACTIVE_GENERATION: true,
-  LOG_VIEW_LOOKUPS: true,
-  modulePrefix: 'appkit', // TODO: loaded via config
+  LOG_ACTIVE_GENERATION: false,
+  LOG_VIEW_LOOKUPS: false,
+  modulePrefix: 'tunebenders', // TODO: loaded via config
   resolver: Resolver
 });
 
-import routes from 'appkit/routes';
+import routes from 'tunebenders/routes';
 App.Router.map(routes); // TODO: just resolve the router
 
 export default App;

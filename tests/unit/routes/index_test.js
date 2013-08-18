@@ -1,5 +1,4 @@
-import Index from 'appkit/routes/index';
-import App from 'appkit/app';
+import App from 'tunebenders/app';
 
 var route;
 
@@ -10,10 +9,10 @@ module("Unit - IndexRoute", {
 });
 
 test("it exists", function(){
-  ok(route);
-  ok(route instanceof Ember.Route);
+  expect(1);
+  ok(exists(route));
+  //ok(route instanceof Ember.Route);
 });
 
-test("#model", function(){
-  deepEqual(route.model(), ['red', 'yellow', 'blue']);
-});
+
+1

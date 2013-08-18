@@ -1,0 +1,201 @@
+// Styles for navigation
+
+.header-inner {
+  position: relative;
+}
+
+.nav-horizontal {
+  > li {
+    display: inline-block;
+    margin-left: 10px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
+
+.nav-horizontal-right {
+  text-align: right;
+
+  @media screen and (max-width: 768px) {
+    text-align: left;
+  }
+}
+
+.nav-utility {
+  padding: 5px 0;
+  font-size: 1.3em;
+  color: #b2b2b2;
+  background-color: #070707;
+
+  a {
+    display: inline-block;
+    padding: 5px 0;
+    color: #b2b2b2;
+
+    &:hover,
+    &:focus {
+      color: #aaa;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav-primary {
+  @include clearfix;
+  font-size: 16px;
+  font-weight: bold;
+
+  > li {
+    margin-left: 3px;
+    padding: 5px;
+    border: 1px solid darkgrey;
+
+    > a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover,
+      &:focus,
+      &.active {
+        color: #bbb;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      margin: 5px 0;
+      padding-bottom: 0;
+      float: left;
+      width: 50%;
+
+      > a {
+        display: block;
+        padding: 5px 10px;
+        border-radius: 4px;
+
+        &:hover,
+        &:focus,
+        &.active {
+          background: #666;
+          color: #fff;
+        }
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+// Dropdown menu styles
+
+.caret {
+  margin-left: 3px;
+  display: inline-block;
+  position: relative;
+  bottom: 2px;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-left:   6px solid transparent;
+  border-top: 6px solid #bbb;
+  border-right: 6px solid transparent;
+  content: "";
+}
+
+.dropdown-toggle {
+  position: relative;
+}
+
+.dropdown-menu {
+  //@include drop-shadow();
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 5px 0;
+  width: 150px;
+  z-index: 1000;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 4px;
+
+  @media screen and (max-width: 768px) {
+    top: 30px;
+  }
+
+  a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: #ddd;
+    }
+  }
+
+  &:after,
+  &:before {
+    position: absolute;
+    bottom: 100%;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    content: " ";
+  }
+
+  &:after {
+    border-bottom-color: #fff;
+    border-width: 6px;
+    left: 16px;
+    margin-left: -6px;
+  }
+
+  &:before {
+    border-bottom-color: #666;
+    border-width: 7px;
+    left: 16px;
+    margin-left: -7px;
+  }
+}
+
+.nav-toggle {
+  @include border-left-radius(4px);
+  @include border-right-radius(4px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 4px;
+  cursor: pointer;
+
+  .ico {
+    opacity: .8;
+  }
+
+  &:hover .ico,
+  &:focus .ico {
+    opacity: 1;
+  }
+
+  &.active {
+    background-color: #4c4c4c;
+  }
+}
+
+.nav-overflow {
+  padding-top: 5px;
+  background-color: #4c4c4c;
+}
+
+// Hide main nav and nav toggle on launchpad
+
+.hide-navigation {
+  .nav-toggle,
+  .nav-container {
+    display: none;
+  }
+}

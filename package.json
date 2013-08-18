@@ -1,6 +1,6 @@
 {
   "name": "app-kit",
-  "namespace": "appkit",
+  "namespace": "tunebenders",
   "version": "0.0.0",
   "main": "index.js",
   "directories": {
@@ -40,6 +40,8 @@
     "karma-coverage": "~0.0.3",
     "karma-phantomjs-launcher": "~0.0.2",
     "karma-safari-launcher": "~0.0.3",
-    "lockfile": "~>0.3.0"
+    "lockfile": "~>0.3.0",
+    "grunt-sass": "~0.6.1",
+    "grunt-contrib-sass": "~0.4.1"
   }
 }

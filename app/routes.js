@@ -1,8 +1,6 @@
 function Routes() {
-  // // routes/resources
-  // this.resource('posts', function() {
-  //   this.route('new');
-  // });
+  this.route("songs");
+  this.route("schedule");
 }
 
 export default Routes;

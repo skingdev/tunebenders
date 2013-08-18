@@ -1,0 +1,94 @@
+// Grid styles
+
+$columnWidth: 60px;
+$gutterWidth: 20px;
+$numberOfColumns: 12;
+
+.row {
+  margin-left: -$gutterWidth;
+  clear:both;
+  *zoom:1;
+}
+
+[class*="span"] {
+  float:left;
+  margin-left: $gutterWidth;
+  *margin-left: $gutterWidth / 2;
+  *zoom:1;
+}
+
+@mixin span($numColumns) {
+  width: ($columnWidth * $numColumns) + ($gutterWidth * ($numColumns - 1));
+}
+
+.span1 { @include span(1); }
+.span2 { @include span(2); }
+.span3 { @include span(3); }
+.span4 { @include span(4); }
+.span5 { @include span(5); }
+.span6 { @include span(6); }
+.span7 { @include span(7); }
+.span8 { @include span(8); }
+.span9 { @include span(9); }
+.span10 { @include span(10); }
+.span11 { @include span(11); }
+.span12 { @include span(12); }
+
+
+// Introduce flexible grid for specific components
+//  - Navigation, line stats, etc.
+//  - Will not work for Dashboard as that has svg
+//    components and need fixed width
+
+// Set new variables
+
+$cols-fluid: 12;
+$base-width-fluid: 960;
+$context-fluid: 940;
+$gutter-fluid: 20;
+
+.row-fluid {
+  @include clearfix;
+}
+
+// Grid system (based on 960 grid)
+
+$col-width-fluid: percentage(($base-width-fluid / $cols-fluid) / $context-fluid);
+$gutter-width-fluid: percentage($gutter-fluid / $context-fluid);
+
+@function grid-width($cols-fluid) {
+  @return $col-width-fluid * $cols-fluid - $gutter-width-fluid;
+}
+
+@mixin column($num) {
+  .col-#{$num} {
+    width: grid-width($num);
+    margin-left: $gutter-width-fluid;
+    float: left;
+
+    &.col-centered {
+      margin: 0 auto;
+      float: none;
+
+      &:first-child {
+        margin-left: auto;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-#{$num} {
+      width: 100%;
+      margin-left: 0;
+      float: none;
+    }
+  }
+}
+
+@for $i from 1 to $cols-fluid + 1 {
+  @include column($i);
+}
