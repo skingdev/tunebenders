@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4684c3-e972-411e-97a4-2b723ba0b4a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/modules/application/templates/main.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/modules/index/templates/main.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/modules/songs/templates/main.hbs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/actions/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/routes/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/application.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/index.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/utils/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/.gitkeep" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/routes/index.js" afterPath="$PROJECT_DIR$/app/modules/index/routes/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/options/coffee.js" afterPath="$PROJECT_DIR$/tasks/options/coffee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ember/ember.js" afterPath="$PROJECT_DIR$/vendor/ember/ember.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/options/ember_templates.js" afterPath="$PROJECT_DIR$/tasks/options/ember_templates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/index_test.js" afterPath="$PROJECT_DIR$/tests/acceptance/index_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/routes/index_test.js" afterPath="$PROJECT_DIR$/tests/unit/routes/index_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/loader.js" afterPath="$PROJECT_DIR$/vendor/loader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.js" afterPath="$PROJECT_DIR$/app/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/options/sass.js" afterPath="$PROJECT_DIR$/tasks/options/sass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_helper.js" afterPath="$PROJECT_DIR$/tests/test_helper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_loader.js" afterPath="$PROJECT_DIR$/tests/test_loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/index-test.js" afterPath="$PROJECT_DIR$/tests/acceptance/index-test.js" />
     </list>
     <ignored path="tunebenders.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376854477438" ignored="false" />
     <file path="$PROJECT_DIR$/charcoal/grunt.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376852972507" ignored="false" />
-    <file path="$PROJECT_DIR$/app/router.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376160115792" ignored="false" />
     <file path="/a.dummy" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376855690790" ignored="false" />
     <file path="/styles.scss" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376612566815" ignored="false" />
     <file path="$PROJECT_DIR$/tmp/components/mocha/test/acceptance/http.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376272979365" ignored="false" />
@@ -58,6 +30,7 @@
     <file path="/loader.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376855061436" ignored="false" />
     <file path="/routes.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376855559948" ignored="false" />
     <file path="/index_test.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376857322233" ignored="false" />
+    <file path="/index-test.js" changelist="df4684c3-e972-411e-97a4-2b723ba0b4a5" time="1376858256227" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_test.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/acceptance/index_test.js">
+      <file leaf-file-name="index-test.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/index-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="211" selection-end="211" vertical-scroll-proportion="0.19889502">
+            <state line="27" column="52" selection-start="656" selection-end="656" vertical-scroll-proportion="0.44751382">
               <folding />
             </state>
           </provider>
@@ -122,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tmp/public/tests/tests.js" />
         <option value="$PROJECT_DIR$/tmp/transpiled/app/app.js" />
         <option value="$PROJECT_DIR$/tmp/transpiled/app/modules/index/routes/main.js" />
         <option value="$PROJECT_DIR$/tmp/transpiled/app/routes.js" />
@@ -138,6 +110,7 @@
         <option value="$PROJECT_DIR$/tests/unit/routes/index_test.js" />
         <option value="$PROJECT_DIR$/tests/unit/routes/index-test.js" />
         <option value="$PROJECT_DIR$/tests/acceptance/index_test.js" />
+        <option value="$PROJECT_DIR$/tests/acceptance/index-test.js" />
       </list>
     </option>
   </component>
@@ -345,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,7 +340,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="songs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,11 +366,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="schedule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tunebenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tunebenders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -629,16 +620,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.sass-cache/1eedf6a1e1563f1d58eb07b853b23ac24e6f85c4/_font-family.scssc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="486" selection-end="486" vertical-scroll-proportion="0.19031142">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="32" selection-start="711" selection-end="711" vertical-scroll-proportion="-15.0">
@@ -739,9 +720,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/index_test.js">
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/index-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="211" selection-end="211" vertical-scroll-proportion="0.19889502">
+        <state line="27" column="52" selection-start="656" selection-end="656" vertical-scroll-proportion="0.44751382">
           <folding />
         </state>
       </provider>

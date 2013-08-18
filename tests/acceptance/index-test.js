@@ -14,3 +14,17 @@ test("index renders", function(){
 
   });
 });
+
+test("clicking on songs link takes you to songs page", function(){
+
+  click(".nav-primary li:contains('Songs') a ").then(function(){
+    ok(exists("th:contains('Song')"));
+  });
+});
+
+test("clicking on schedule link takes you to schedule page", function(){
+
+  click(".nav-primary li:contains('Schedule') a ").then(function(){
+    ok(exists("label:contains('No upcoming shows yet')"));
+  });
+});
