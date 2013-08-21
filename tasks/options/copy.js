@@ -32,6 +32,12 @@ module.exports = {
       cwd: 'public/',
       src: ['**'],
       dest: 'tmp/public/'
+    },
+    {
+      expand: true,
+      cwd: 'app/images/',
+      src: ['**'],
+      dest: 'tmp/public/images/'
     }]
   },
   "vendor": {

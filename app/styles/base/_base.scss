@@ -6,7 +6,7 @@ body {
   font-family: $sans-serif-font;
   line-height: 1.4;
   color: #b3b3b3;
-  background-color: #171717;
+  background-color: #000;
 }
 
 a { 
@@ -44,5 +44,5 @@ embed {
 }
 
 .siteTitle {
-  color: white;
+  padding-left: 8em;
 }
