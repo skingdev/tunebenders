@@ -35,7 +35,7 @@ module.exports = {
     },
     {
       expand: true,
-      cwd: 'app/images/',
+      cwd: 'images/',
       src: ['**'],
       dest: 'tmp/public/images/'
     }]
