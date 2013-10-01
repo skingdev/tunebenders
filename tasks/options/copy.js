@@ -35,6 +35,12 @@ module.exports = {
     },
     {
       expand: true,
+      cwd: 'images',
+      src: ['*.png', '*.gif'],
+      dest: 'tmp/public/assets/images/'
+    },
+    {
+      expand: true,
       cwd: 'images/',
       src: ['**'],
       dest: 'tmp/public/images/'
